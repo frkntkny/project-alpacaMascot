@@ -1,0 +1,108 @@
+:root {
+  --divWH: 600px;
+}
+
+.mainDiv {
+  /* background-image: url("../alpaca/backgrounds/blue60.png"); */
+  width: var(--divWH);
+  height: var(--divWH);
+}
+.backgroundsDiv {
+  position: absolute;
+}
+.backgroundsImg {
+  width: var(--divWH);
+  height: var(--divWH);
+}
+.earsDiv {
+  position: absolute;
+}
+.earsImg {
+  width: var(--divWH);
+  height: var(--divWH);
+}
+
+.neckDiv {
+  position: absolute;
+}
+.neckImg {
+  width: var(--divWH);
+  height: var(--divWH);
+}
+
+.hairDiv {
+  position: absolute;
+}
+.hairImg {
+  width: var(--divWH);
+  height: var(--divWH);
+}
+.eyesDiv {
+  position: absolute;
+}
+.eyesImg {
+  width: var(--divWH);
+  height: var(--divWH);
+}
+.noseDiv {
+  position: absolute;
+}
+.noseImg {
+  width: var(--divWH);
+  height: var(--divWH);
+}
+.mouthDiv {
+  position: absolute;
+}
+.mouthImg {
+  width: var(--divWH);
+  height: var(--divWH);
+}
+
+.accessoriesDiv {
+  position: absolute;
+}
+.accessoriesImg {
+  width: var(--divWH);
+  height: var(--divWH);
+}
+.legDiv {
+  position: absolute;
+}
+.legImg {
+  width: var(--divWH);
+  height: var(--divWH);
+}
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    --divWH: 550px;
+  }
+  .mainDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  :root {
+    --divWH: 450px;
+  }
+  .mainDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  :root {
+    --divWH: 250px;
+  }
+  .mainDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,33 @@
+.obtionButtonDiv {
+  margin-left: 0;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+.obtionButton {
+  width: auto;
+  display: inline-block;
+  background-color: #ececec;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  color: #23509c;
+  border: 2px solid #23509c;
+  border-radius: 30pc;
+  font-weight: 600;
+  margin: 3px;
+}
+
+.obtionButton:hover {
+  background-color: #dfd;
+}
+
+.obtionButton:focus {
+  border: 2px solid #ececec;
+  background-color: #2ea0e7;
+  color: #ececec;
+}

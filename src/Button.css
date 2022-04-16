@@ -1,0 +1,59 @@
+.myButtonDiv {
+  margin-left: 0;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  float: left;
+  width: 25%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.myButton {
+  background-color: #ececec;
+  border-radius: 30pc;
+  padding: 10px 40px;
+
+  border: 2px solid #23509c;
+  color: #23509c;
+  font-weight: 600;
+  float: left;
+}
+.myButton:hover {
+  border: 2px solid #2ea0e7;
+  color: #2ea0e7;
+}
+
+.radio-toolbar {
+  margin: 3px;
+}
+
+.radio-toolbar input[type="radio"] {
+  opacity: 1;
+}
+
+.radio-toolbar label {
+  display: inline-block;
+  background-color: #ececec;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  color: #23509c;
+  border: 2px solid #23509c;
+  border-radius: 30pc;
+  font-weight: 600;
+}
+
+.radio-toolbar label:hover {
+  background-color: #dfd;
+}
+
+.radio-toolbar input[type="radio"]:focus + label {
+  border: 2px dashed #444;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+  border: 2px solid #ececec;
+  background-color: #2ea0e7;
+  color: #ececec;
+}
