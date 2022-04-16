@@ -13,6 +13,9 @@ function RightPanel({ setSelectedObject, selectedObject }) {
     <div className="">
       <div className="container">
         <div className="row w-auto mx-3 my-3">
+          <h3 className="text-bold fw-bolder font-monospace">
+            Accessorize The Alpaca's
+          </h3>
           <div className="col">
             <Button
               selection={selection}
@@ -72,6 +75,7 @@ function RightPanel({ setSelectedObject, selectedObject }) {
         </div>
         <hr></hr>
         <div className="row w-auto mx-3 my-3">
+          <h3 className="text-bold fw-bolder font-monospace">Style</h3>
           <div className="col">
             <Obtions
               selection={selection}
